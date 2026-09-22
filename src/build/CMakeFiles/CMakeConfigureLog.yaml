@@ -1,0 +1,829 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/flowerg9/.local/bin/"
+      - "/home/flowerg9/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/flowerg9/.local/bin/uname"
+      - "/home/flowerg9/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Generic -  - avr
+      The host system is: Linux - 7.2.5-200.fc44.x86_64 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/flowerg9/.local/bin/"
+      - "/home/flowerg9/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    searched_directories:
+      - "/home/flowerg9/.local/bin/gmake"
+      - "/home/flowerg9/bin/gmake"
+      - "/usr/local/bin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc"
+    candidate_directories:
+      - "/home/flowerg9/.local/bin/"
+      - "/home/flowerg9/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+    searched_directories:
+      - "/home/flowerg9/.local/bin/avr-gcc"
+      - "/home/flowerg9/bin/avr-gcc"
+      - "/usr/local/bin/avr-gcc"
+    found: "/usr/bin/avr-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/avr-gcc 
+      Build flags: -mmcu=atmega328p;-DF_CPU=16000000UL;-Os
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/flowerg9/Projekty/inputswitcher/src/build/CMakeFiles/4.3.0/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-ar"
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/flowerg9/.local/bin/"
+      - "/home/flowerg9/bin/"
+      - "/usr/local/bin/"
+    found: "/usr/bin/avr-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/flowerg9/.local/bin/"
+      - "/home/flowerg9/bin/"
+      - "/usr/local/bin/"
+    found: "/usr/bin/avr-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-strip"
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/flowerg9/.local/bin/"
+      - "/home/flowerg9/bin/"
+      - "/usr/local/bin/"
+    found: "/usr/bin/avr-strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-ld"
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/flowerg9/.local/bin/"
+      - "/home/flowerg9/bin/"
+      - "/usr/local/bin/"
+    found: "/usr/bin/avr-ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-nm"
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/flowerg9/.local/bin/"
+      - "/home/flowerg9/bin/"
+      - "/usr/local/bin/"
+    found: "/usr/bin/avr-nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/flowerg9/.local/bin/"
+      - "/home/flowerg9/bin/"
+      - "/usr/local/bin/"
+    found: "/usr/bin/avr-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/flowerg9/.local/bin/"
+      - "/home/flowerg9/bin/"
+      - "/usr/local/bin/"
+    found: "/usr/bin/avr-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/flowerg9/.local/bin/"
+      - "/home/flowerg9/bin/"
+      - "/usr/local/bin/"
+    found: "/usr/bin/avr-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/flowerg9/.local/bin/"
+      - "/home/flowerg9/bin/"
+      - "/usr/local/bin/"
+    searched_directories:
+      - "/usr/bin/avr-dlltool"
+      - "/home/flowerg9/.local/bin/avr-dlltool"
+      - "/home/flowerg9/bin/avr-dlltool"
+      - "/usr/local/bin/avr-dlltool"
+      - "/usr/bin/dlltool"
+      - "/home/flowerg9/.local/bin/dlltool"
+      - "/home/flowerg9/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/flowerg9/.local/bin/"
+      - "/home/flowerg9/bin/"
+      - "/usr/local/bin/"
+    found: "/usr/bin/avr-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/flowerg9/.local/bin/"
+      - "/home/flowerg9/bin/"
+      - "/usr/local/bin/"
+    searched_directories:
+      - "/usr/bin/avr-tapi"
+      - "/home/flowerg9/.local/bin/avr-tapi"
+      - "/home/flowerg9/bin/avr-tapi"
+      - "/usr/local/bin/avr-tapi"
+      - "/usr/bin/tapi"
+      - "/home/flowerg9/.local/bin/tapi"
+      - "/home/flowerg9/bin/tapi"
+      - "/usr/local/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc-ar-15.2"
+      - "avr-gcc-ar-15"
+      - "avr-gcc-ar15"
+      - "avr-gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/flowerg9/.local/bin/"
+      - "/home/flowerg9/bin/"
+      - "/usr/local/bin/"
+    searched_directories:
+      - "/usr/bin/avr-gcc-ar-15.2"
+      - "/home/flowerg9/.local/bin/avr-gcc-ar-15.2"
+      - "/home/flowerg9/bin/avr-gcc-ar-15.2"
+      - "/usr/local/bin/avr-gcc-ar-15.2"
+      - "/usr/bin/avr-gcc-ar-15"
+      - "/home/flowerg9/.local/bin/avr-gcc-ar-15"
+      - "/home/flowerg9/bin/avr-gcc-ar-15"
+      - "/usr/local/bin/avr-gcc-ar-15"
+      - "/usr/bin/avr-gcc-ar15"
+      - "/home/flowerg9/.local/bin/avr-gcc-ar15"
+      - "/home/flowerg9/bin/avr-gcc-ar15"
+      - "/usr/local/bin/avr-gcc-ar15"
+    found: "/usr/bin/avr-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc-ranlib-15.2"
+      - "avr-gcc-ranlib-15"
+      - "avr-gcc-ranlib15"
+      - "avr-gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/flowerg9/.local/bin/"
+      - "/home/flowerg9/bin/"
+      - "/usr/local/bin/"
+    searched_directories:
+      - "/usr/bin/avr-gcc-ranlib-15.2"
+      - "/home/flowerg9/.local/bin/avr-gcc-ranlib-15.2"
+      - "/home/flowerg9/bin/avr-gcc-ranlib-15.2"
+      - "/usr/local/bin/avr-gcc-ranlib-15.2"
+      - "/usr/bin/avr-gcc-ranlib-15"
+      - "/home/flowerg9/.local/bin/avr-gcc-ranlib-15"
+      - "/home/flowerg9/bin/avr-gcc-ranlib-15"
+      - "/usr/local/bin/avr-gcc-ranlib-15"
+      - "/usr/bin/avr-gcc-ranlib15"
+      - "/home/flowerg9/.local/bin/avr-gcc-ranlib15"
+      - "/home/flowerg9/bin/avr-gcc-ranlib15"
+      - "/usr/local/bin/avr-gcc-ranlib15"
+    found: "/usr/bin/avr-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/flowerg9/.local/bin"
+        - "/home/flowerg9/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/flowerg9/Projekty/inputswitcher/src/build/CMakeFiles/CMakeScratch/TryCompile-mLszAi"
+      binary: "/home/flowerg9/Projekty/inputswitcher/src/build/CMakeFiles/CMakeScratch/TryCompile-mLszAi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mmcu=atmega328p -DF_CPU=16000000UL -Os"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/flowerg9/Projekty/inputswitcher/src/build/CMakeFiles/CMakeScratch/TryCompile-mLszAi'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8102d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8102d.dir/build.make CMakeFiles/cmTC_8102d.dir/build
+        gmake[1]: Entering directory '/home/flowerg9/Projekty/inputswitcher/src/build/CMakeFiles/CMakeScratch/TryCompile-mLszAi'
+        Building C object CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj
+        /usr/bin/avr-gcc   -mmcu=atmega328p -DF_CPU=16000000UL -Os    -v -o CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        Reading specs from /usr/lib/gcc/avr/15.2.0/device-specs/specs-atmega328p
+        COLLECT_GCC=/usr/bin/avr-gcc
+        Target: avr
+        Configured with: ../gcc-15.2.0/configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --target=avr --enable-languages=c,c++ --disable-nls --disable-libssp --with-system-zlib --enable-version-specific-runtime-libs --with-pkgversion='Fedora 15.2.0-1.fc44' --with-bugurl=https://bugzilla.redhat.com/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (Fedora 15.2.0-1.fc44) 
+        COLLECT_GCC_OPTIONS= '-D' 'F_CPU=16000000UL' '-Os' '-v' '-o' 'CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj' '-c' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-atmega328p' '-mmcu=avr5' '-dumpdir' 'CMakeFiles/cmTC_8102d.dir/'
+         /usr/libexec/gcc/avr/15.2.0/cc1 -quiet -v -imultilib avr5 -D__AVR_ATmega328P__ -D__AVR_RODATA_IN_RAM__=1 -D__AVR_DEVICE_NAME__=atmega328p -D F_CPU=16000000UL /usr/share/cmake/Modules/CMakeCCompilerABI.c -mn-flash=1 -mno-skip-bug -quiet -dumpdir CMakeFiles/cmTC_8102d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdouble=32 -mlong-double=64 -mmcu=avr5 -Os -version -o /tmp/ccmWa27l.s
+        GNU C23 (Fedora 15.2.0-1.fc44) version 15.2.0 (avr)
+        	compiled by GNU C version 16.0.1 20260115 (Red Hat 16.0.1-0), GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version none
+        warning: MPC header version 1.3.1 differs from library version 1.4.1.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/avr/15.2.0/../../../../avr/sys-include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/avr/15.2.0/include
+         /usr/lib/gcc/avr/15.2.0/include-fixed
+         /usr/lib/gcc/avr/15.2.0/../../../../avr/include
+        End of search list.
+        Compiler executable checksum: bed44c1fb73b542b0385401a8aa03ba9
+        COLLECT_GCC_OPTIONS= '-D' 'F_CPU=16000000UL' '-Os' '-v' '-o' 'CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj' '-c' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-atmega328p' '-mmcu=avr5' '-dumpdir' 'CMakeFiles/cmTC_8102d.dir/'
+         /usr/lib/gcc/avr/15.2.0/../../../../avr/bin/as -mmcu=avr5 -mgcc-isr -mno-skip-bug -o CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj /tmp/ccmWa27l.s
+        COMPILER_PATH=/usr/libexec/gcc/avr/15.2.0/:/usr/libexec/gcc/avr/15.2.0/:/usr/libexec/gcc/avr/:/usr/lib/gcc/avr/15.2.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/15.2.0/../../../../avr/bin/
+        LIBRARY_PATH=/usr/lib/gcc/avr/15.2.0/avr5/:/usr/lib/gcc/avr/15.2.0/../../../../avr/lib/avr5/:/usr/lib/gcc/avr/15.2.0/:/usr/lib/gcc/avr/15.2.0/../../../../avr/lib/
+        COLLECT_GCC_OPTIONS= '-D' 'F_CPU=16000000UL' '-Os' '-v' '-o' 'CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj' '-c' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-atmega328p' '-mmcu=avr5' '-dumpdir' 'CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_8102d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8102d.dir/link.txt --verbose=1
+        Using built-in specs.
+        Reading specs from /usr/lib/gcc/avr/15.2.0/device-specs/specs-atmega328p
+        COLLECT_GCC=/usr/bin/avr-gcc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/avr/15.2.0/lto-wrapper
+        Target: avr
+        Configured with: ../gcc-15.2.0/configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --target=avr --enable-languages=c,c++ --disable-nls --disable-libssp --with-system-zlib --enable-version-specific-runtime-libs --with-pkgversion='Fedora 15.2.0-1.fc44' --with-bugurl=https://bugzilla.redhat.com/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (Fedora 15.2.0-1.fc44) 
+        COMPILER_PATH=/usr/libexec/gcc/avr/15.2.0/:/usr/libexec/gcc/avr/15.2.0/:/usr/libexec/gcc/avr/:/usr/lib/gcc/avr/15.2.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/15.2.0/../../../../avr/bin/
+        LIBRARY_PATH=/usr/lib/gcc/avr/15.2.0/avr5/:/usr/lib/gcc/avr/15.2.0/../../../../avr/lib/avr5/:/usr/lib/gcc/avr/15.2.0/:/usr/lib/gcc/avr/15.2.0/../../../../avr/lib/
+        COLLECT_GCC_OPTIONS= '-D' 'F_CPU=16000000UL' '-Os' '-v' '-o' 'cmTC_8102d' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-atmega328p' '-mmcu=avr5' '-dumpdir' 'cmTC_8102d.'
+         /usr/libexec/gcc/avr/15.2.0/collect2 -plugin /usr/libexec/gcc/avr/15.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/avr/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDC613d.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-latmega328p -mavr5 -Tdata 0x800100 -o cmTC_8102d /usr/lib/gcc/avr/15.2.0/../../../../avr/lib/avr5/crtatmega328p.o -L/usr/lib/gcc/avr/15.2.0/avr5 -L/usr/lib/gcc/avr/15.2.0/../../../../avr/lib/avr5 -L/usr/lib/gcc/avr/15.2.0 -L/usr/lib/gcc/avr/15.2.0/../../../../avr/lib CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc -latmega328p --end-group
+        COLLECT_GCC_OPTIONS= '-D' 'F_CPU=16000000UL' '-Os' '-v' '-o' 'cmTC_8102d' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-atmega328p' '-mmcu=avr5' '-dumpdir' 'cmTC_8102d.'
+        /usr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000UL -Os   -v CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj -o cmTC_8102d
+        gmake[1]: Leaving directory '/home/flowerg9/Projekty/inputswitcher/src/build/CMakeFiles/CMakeScratch/TryCompile-mLszAi'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/avr/15.2.0/include]
+          add: [/usr/lib/gcc/avr/15.2.0/include-fixed]
+          add: [/usr/lib/gcc/avr/15.2.0/../../../../avr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/avr/15.2.0/include] ==> [/usr/lib/gcc/avr/15.2.0/include]
+        collapse include dir [/usr/lib/gcc/avr/15.2.0/include-fixed] ==> [/usr/lib/gcc/avr/15.2.0/include-fixed]
+        collapse include dir [/usr/lib/gcc/avr/15.2.0/../../../../avr/include] ==> [/usr/avr/include]
+        implicit include dirs: [/usr/lib/gcc/avr/15.2.0/include;/usr/lib/gcc/avr/15.2.0/include-fixed;/usr/avr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/flowerg9/Projekty/inputswitcher/src/build/CMakeFiles/CMakeScratch/TryCompile-mLszAi']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8102d/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_8102d.dir/build.make CMakeFiles/cmTC_8102d.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/flowerg9/Projekty/inputswitcher/src/build/CMakeFiles/CMakeScratch/TryCompile-mLszAi']
+        ignore line: [Building C object CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/usr/bin/avr-gcc   -mmcu=atmega328p -DF_CPU=16000000UL -Os    -v -o CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [Reading specs from /usr/lib/gcc/avr/15.2.0/device-specs/specs-atmega328p]
+        ignore line: [COLLECT_GCC=/usr/bin/avr-gcc]
+        ignore line: [Target: avr]
+        ignore line: [Configured with: ../gcc-15.2.0/configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --target=avr --enable-languages=c c++ --disable-nls --disable-libssp --with-system-zlib --enable-version-specific-runtime-libs --with-pkgversion='Fedora 15.2.0-1.fc44' --with-bugurl=https://bugzilla.redhat.com/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (Fedora 15.2.0-1.fc44) ]
+        ignore line: [COLLECT_GCC_OPTIONS= '-D' 'F_CPU=16000000UL' '-Os' '-v' '-o' 'CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj' '-c' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-atmega328p' '-mmcu=avr5' '-dumpdir' 'CMakeFiles/cmTC_8102d.dir/']
+        ignore line: [ /usr/libexec/gcc/avr/15.2.0/cc1 -quiet -v -imultilib avr5 -D__AVR_ATmega328P__ -D__AVR_RODATA_IN_RAM__=1 -D__AVR_DEVICE_NAME__=atmega328p -D F_CPU=16000000UL /usr/share/cmake/Modules/CMakeCCompilerABI.c -mn-flash=1 -mno-skip-bug -quiet -dumpdir CMakeFiles/cmTC_8102d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdouble=32 -mlong-double=64 -mmcu=avr5 -Os -version -o /tmp/ccmWa27l.s]
+        ignore line: [GNU C23 (Fedora 15.2.0-1.fc44) version 15.2.0 (avr)]
+        ignore line: [	compiled by GNU C version 16.0.1 20260115 (Red Hat 16.0.1-0)  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version none]
+        ignore line: [warning: MPC header version 1.3.1 differs from library version 1.4.1.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/avr/15.2.0/../../../../avr/sys-include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/avr/15.2.0/include]
+        ignore line: [ /usr/lib/gcc/avr/15.2.0/include-fixed]
+        ignore line: [ /usr/lib/gcc/avr/15.2.0/../../../../avr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: bed44c1fb73b542b0385401a8aa03ba9]
+        ignore line: [COLLECT_GCC_OPTIONS= '-D' 'F_CPU=16000000UL' '-Os' '-v' '-o' 'CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj' '-c' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-atmega328p' '-mmcu=avr5' '-dumpdir' 'CMakeFiles/cmTC_8102d.dir/']
+        ignore line: [ /usr/lib/gcc/avr/15.2.0/../../../../avr/bin/as -mmcu=avr5 -mgcc-isr -mno-skip-bug -o CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj /tmp/ccmWa27l.s]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/avr/15.2.0/:/usr/libexec/gcc/avr/15.2.0/:/usr/libexec/gcc/avr/:/usr/lib/gcc/avr/15.2.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/15.2.0/../../../../avr/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/15.2.0/avr5/:/usr/lib/gcc/avr/15.2.0/../../../../avr/lib/avr5/:/usr/lib/gcc/avr/15.2.0/:/usr/lib/gcc/avr/15.2.0/../../../../avr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS= '-D' 'F_CPU=16000000UL' '-Os' '-v' '-o' 'CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj' '-c' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-atmega328p' '-mmcu=avr5' '-dumpdir' 'CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_8102d]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8102d.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [Reading specs from /usr/lib/gcc/avr/15.2.0/device-specs/specs-atmega328p]
+        ignore line: [COLLECT_GCC=/usr/bin/avr-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/avr/15.2.0/lto-wrapper]
+        ignore line: [Target: avr]
+        ignore line: [Configured with: ../gcc-15.2.0/configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --target=avr --enable-languages=c c++ --disable-nls --disable-libssp --with-system-zlib --enable-version-specific-runtime-libs --with-pkgversion='Fedora 15.2.0-1.fc44' --with-bugurl=https://bugzilla.redhat.com/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (Fedora 15.2.0-1.fc44) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/avr/15.2.0/:/usr/libexec/gcc/avr/15.2.0/:/usr/libexec/gcc/avr/:/usr/lib/gcc/avr/15.2.0/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/15.2.0/../../../../avr/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/15.2.0/avr5/:/usr/lib/gcc/avr/15.2.0/../../../../avr/lib/avr5/:/usr/lib/gcc/avr/15.2.0/:/usr/lib/gcc/avr/15.2.0/../../../../avr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS= '-D' 'F_CPU=16000000UL' '-Os' '-v' '-o' 'cmTC_8102d' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-atmega328p' '-mmcu=avr5' '-dumpdir' 'cmTC_8102d.']
+        link line: [ /usr/libexec/gcc/avr/15.2.0/collect2 -plugin /usr/libexec/gcc/avr/15.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/avr/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDC613d.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-latmega328p -mavr5 -Tdata 0x800100 -o cmTC_8102d /usr/lib/gcc/avr/15.2.0/../../../../avr/lib/avr5/crtatmega328p.o -L/usr/lib/gcc/avr/15.2.0/avr5 -L/usr/lib/gcc/avr/15.2.0/../../../../avr/lib/avr5 -L/usr/lib/gcc/avr/15.2.0 -L/usr/lib/gcc/avr/15.2.0/../../../../avr/lib CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc -latmega328p --end-group]
+          arg [/usr/libexec/gcc/avr/15.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/avr/15.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/avr/15.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccDC613d.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lm] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-latmega328p] ==> ignore
+          arg [-mavr5] ==> ignore
+          arg [-Tdata] ==> ignore
+          arg [0x800100] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_8102d] ==> ignore
+          arg [/usr/lib/gcc/avr/15.2.0/../../../../avr/lib/avr5/crtatmega328p.o] ==> obj [/usr/lib/gcc/avr/15.2.0/../../../../avr/lib/avr5/crtatmega328p.o]
+          arg [-L/usr/lib/gcc/avr/15.2.0/avr5] ==> dir [/usr/lib/gcc/avr/15.2.0/avr5]
+          arg [-L/usr/lib/gcc/avr/15.2.0/../../../../avr/lib/avr5] ==> dir [/usr/lib/gcc/avr/15.2.0/../../../../avr/lib/avr5]
+          arg [-L/usr/lib/gcc/avr/15.2.0] ==> dir [/usr/lib/gcc/avr/15.2.0]
+          arg [-L/usr/lib/gcc/avr/15.2.0/../../../../avr/lib] ==> dir [/usr/lib/gcc/avr/15.2.0/../../../../avr/lib]
+          arg [CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--start-group] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lm] ==> lib [m]
+          arg [-lc] ==> lib [c]
+          arg [-latmega328p] ==> lib [atmega328p]
+          arg [--end-group] ==> ignore
+        ignore line: [COLLECT_GCC_OPTIONS= '-D' 'F_CPU=16000000UL' '-Os' '-v' '-o' 'cmTC_8102d' '-mdouble=32' '-mlong-double=64' '-specs=device-specs/specs-atmega328p' '-mmcu=avr5' '-dumpdir' 'cmTC_8102d.']
+        ignore line: [/usr/bin/avr-gcc -mmcu=atmega328p -DF_CPU=16000000UL -Os   -v CMakeFiles/cmTC_8102d.dir/CMakeCCompilerABI.c.obj -o cmTC_8102d]
+        ignore line: [gmake[1]: Leaving directory '/home/flowerg9/Projekty/inputswitcher/src/build/CMakeFiles/CMakeScratch/TryCompile-mLszAi']
+        ignore line: []
+        ignore line: []
+        collapse obj [/usr/lib/gcc/avr/15.2.0/../../../../avr/lib/avr5/crtatmega328p.o] ==> [/usr/avr/lib/avr5/crtatmega328p.o]
+        collapse library dir [/usr/lib/gcc/avr/15.2.0/avr5] ==> [/usr/lib/gcc/avr/15.2.0/avr5]
+        collapse library dir [/usr/lib/gcc/avr/15.2.0/../../../../avr/lib/avr5] ==> [/usr/avr/lib/avr5]
+        collapse library dir [/usr/lib/gcc/avr/15.2.0] ==> [/usr/lib/gcc/avr/15.2.0]
+        collapse library dir [/usr/lib/gcc/avr/15.2.0/../../../../avr/lib] ==> [/usr/avr/lib]
+        implicit libs: [gcc;m;c;atmega328p]
+        implicit objs: [/usr/avr/lib/avr5/crtatmega328p.o]
+        implicit dirs: [/usr/lib/gcc/avr/15.2.0/avr5;/usr/avr/lib/avr5;/usr/lib/gcc/avr/15.2.0;/usr/avr/lib]
+        implicit fwks: []
+      
+      
+...

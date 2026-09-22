@@ -1,0 +1,3 @@
+/home/flowerg9/Projekty/inputswitcher/src/build/CMakeFiles/inputswitcher.dir
+/home/flowerg9/Projekty/inputswitcher/src/build/CMakeFiles/edit_cache.dir
+/home/flowerg9/Projekty/inputswitcher/src/build/CMakeFiles/rebuild_cache.dir
