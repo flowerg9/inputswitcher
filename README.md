@@ -13,6 +13,7 @@
 - [ ] Test mainboard
 
 - [x] Write prototype code for the ATmega328P
+- [x] Test prototype code on breadboard - [ACUprototype.mp4](https://rattus.ing/download/ACUprototype.mp4)
 - [ ] Map volume control nonlinearity
 - [ ] Write final version code for the ATmega328P
 - [ ] Construct device chassis
